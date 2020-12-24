@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<style type="text/css">
+		.body
+		{
+			background: #de1414;
+		}
 		.infocontent
 		{
 			display: flex;
@@ -16,4 +20,7 @@
 	<body>
     	<div class="infocontent">Your previous window redirected to twitter. Happy tweeting...</div>
 	</body>
+	<script>
+		window.opener.location.href="https://twitter.com/home";
+	</script>
 </html>
